@@ -5,7 +5,7 @@ var handleRequest1 = function (request, response){
     response.end("You are great!" + request.url);
 }
 var handleRequest2 = function (request, response){
-    response.end("Thou art not stellar sir or madam!" + request.url)
+    response.end("Thou art less than stellar sir or madam!" + request.url)
 }
 var server1 = http.createServer(handleRequest1);
 var server2 = http.createServer(handleRequest2);
